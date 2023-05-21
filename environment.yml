@@ -1,0 +1,16 @@
+name: mining_complex_networks
+dependencies:
+  - numpy
+  - pandas
+  - matplotlib
+  - jupyter
+  - pycairo
+  - pip
+  - python>=3.9
+  - scikit-learn
+  - nomkl
+  - pip:
+    - gravis
+    - igraph
+    - partition-igraph
+
