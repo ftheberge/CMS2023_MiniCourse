@@ -1,5 +1,5 @@
-# Mining Complex Networks - Practical Methods for Mining Graphs
-### with examples using Python-igraph
+# Mining Complex Networks
+## with examples using Python-igraph
 
 **Notebook 1: EDA**
 
