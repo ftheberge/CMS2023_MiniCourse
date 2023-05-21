@@ -1,6 +1,7 @@
-# Mining Complex Networks - Practical Methods for Mining Graphs using Python-igraph
+# Mining Complex Networks - Practical Methods for Mining Graphs
+### with examples using Python-igraph
 
-**Part 1: EDA**
+**Notebook 1: EDA**
 
 - 1.1 Relational data as graphs
     - basic igraph commands, main dataset, types of graphs
@@ -9,7 +10,7 @@
 - 1.3 Node importance: 
     - coreness, centrality, betweenness
 
-**Part 2: Clustering**
+**Notebook 2: Clustering**
 
 - 2.1 Transitivity
     - triangles and other motifs, local and global clustering coefficients, cliques
@@ -33,6 +34,12 @@
 ## Software environment
 
 The Python Notebook was created under the following conda environment:
+
+```
+conda env create -f environment.yml
+```
+
+which can also be done manually:
 
 ```
 conda create --name mining_complex_networks python=3.10 numpy pandas jupyter matplotlib pycairo scikit-learn
